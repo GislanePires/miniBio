@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #E2E8F0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+}
+
+h1, h2 {
+  color: #D35400;
+  align-items: center;
+}
+
+.container-imagem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 40px;
+  gap: 40px;
+}
+.container-imagem img {
+  width: 70%;
+  border-radius: 100%;
+  position: relative;
+  align-items: baseline;
+}
+.container-imagem .fundo-imagem {
+  display: flex;
+  background-color: #2C3E50;
+  width: 40%;
+  height: 80%;
+  border-radius: 100%;
+  align-items: baseline;
+}
+
+.container-descricao {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 40px;
+}
+
+.container_favoritos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.container_favoritos .filmes, .container_favoritos .musicas {
+  background-color: #2C3E50;
+  padding: 40px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+}/*# sourceMappingURL=style.css.map */
